@@ -6,29 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-       body {
-
+        #container {
+            height: 97vh;
             background-image: url('espaco.jpg');
+            background-position: center center ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        #conteudo {
+            height:600px ;
+            background-image: url('astronauta.png');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
+            
         }
-
-        .astronauta {
-            background-image: url('astronauta.png');
-        }
-
-        
     </style>
-   
+
 </head>
 <body>
-    <section class="espaco">
+    <section id="container">
+        <article id="conteudo">
 
+        </article>
     </section>
-    <article class="astronauta">
-
-    </article>
 </body>
 </html>
